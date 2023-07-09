@@ -1,0 +1,77 @@
+/* CSS untuk halaman login dengan tema bank warna biru */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f5f9;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.btn-primary:hover {
+    background-color: #217dbb;
+    border-color: #217dbb;
+}
+
+.btn-link {
+    color: #3498db;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #217dbb;
+}
